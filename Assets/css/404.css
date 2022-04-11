@@ -1,0 +1,56 @@
+:root {
+    --main: #181610;
+    --s_text: #838372;
+    --text: #2A2B27;
+    --info : #329325;
+}
+
+.intro {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#intro {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: var(--text); 
+    border-radius: 2px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--info); 
+    border-radius: 2px;
+  }
+
+#typed {
+  font-size: 200px;
+}
+
+
+.typed-cursor {
+    color: var(--info);
+    font-size: 200px;
+}
+
+@media (max-width: 768px) {
+    #typed {
+        font-size: 5rem;
+    }
+
+    .typed-cursor {
+        font-size: 5rem;
+    }
+}
