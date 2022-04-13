@@ -85,7 +85,7 @@ footer a:hover {
 
 .card {
   position: relative;
-  height: 75vh;
+  height: 30rem;
   border-radius: 6px;
   padding: 2rem;
   color: var(--info);
