@@ -1,0 +1,2 @@
+Sitemap: https://www.binukads.me/sitemap.xml
+User-agent: *
