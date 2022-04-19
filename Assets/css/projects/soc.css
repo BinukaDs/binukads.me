@@ -1,0 +1,16 @@
+:root {
+    --main: #181610;
+    --s_text: #838372;
+    --text: #2A2B27;
+    --info : #329325;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#video {
+    margin: 0 auto;
+    display: block;
+}
