@@ -9,7 +9,38 @@
 
 <url>
   <loc>https://www.binukads.me/</loc>
-  <lastmod>2022-04-15T04:54:04+00:00</lastmod>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.binukads.me/projects/soc.html</loc>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.binukads.me/projects/travellk.html</loc>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.binukads.me/projects/links%20website.html</loc>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.binukads.me/projects/custom%20links.html</loc>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.binukads.me/projects/login.html</loc>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.binukads.me/index.html</loc>
+  <lastmod>2022-04-20T16:32:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
