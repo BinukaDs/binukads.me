@@ -51,7 +51,6 @@
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  box-shadow: 10 10 10 10px;
   
   backdrop-filter: brightness(25%);
   border-radius: 15px;
@@ -94,6 +93,7 @@
   background-position: center;
   margin: 0;
   padding: 0;
+  position: relative;
   background-color: transparent;
 }
 
@@ -270,10 +270,11 @@ footer ul li a{
 
     #skill_set {
   
-      position: relative;
-      top: 50%;
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+      height: 100%;
+    }
+
+    #works {
+      height: 100%;
     }
 
       .progress {
@@ -306,15 +307,19 @@ footer ul li a{
 
     }
 
+    @media (max-width: 650px) {
+      #works {
+        height: 100%;
+      }
+    }
+
     @media (max-width: 548px) {
 
       #skill_set {
   
-        position: relative;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        height: 100%;
       }
+
 
       .card {
         height: 29rem;
