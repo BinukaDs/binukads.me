@@ -3,11 +3,57 @@
     --s_text: #838372;
     --text: #2A2B27;
     --info : #329325;
+    --pink : #e323be;
+    --purple : #6703a6;
+    --blue : #13cbeb;
+    --darkb : #1f5ad4;
 }
 
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
+
+body {
+    background-image: url('/Assets/Images/projects/wallpaper.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.main p{
+    backdrop-filter: brightness(50%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+#nav .nav-link{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+  }
+  
+  #nav .navbar-brand {
+  
+      font-family: 'Press Start 2P', cursive;
+      font-size: 15px;
+   
+  }
+
+  #topic {
+    font-weight: lighter;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--blue);
+}
+
+footer ul li a{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
 
 
 #video {
@@ -18,5 +64,6 @@
 @media (max-width: 768px) { 
     #video {
         max-width: 95%;
+        height: 100vh; 
     }
 }
