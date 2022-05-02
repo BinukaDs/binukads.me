@@ -52,7 +52,7 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   box-shadow: 10 10 10 10px;
-  backdrop-filter: blur(5px);
+  
   backdrop-filter: brightness(25%);
   border-radius: 15px;
 
@@ -267,6 +267,15 @@ footer ul li a{
   
 
   @media (max-width: 1024px) {
+
+    #skill_set {
+  
+      position: relative;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
       .progress {
         
         max-width: 95%; 
@@ -282,7 +291,7 @@ footer ul li a{
         height: 34rem;
       }
 
-      
+
 
       #contact form {
         width: 100%;
@@ -298,6 +307,15 @@ footer ul li a{
     }
 
     @media (max-width: 548px) {
+
+      #skill_set {
+  
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
       .card {
         height: 29rem;
       }
