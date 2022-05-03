@@ -17,7 +17,7 @@
 
 
 .intro {
-    background-image: url('/Assets/Images/wallpaper.gif');
+    background-image: url('/Assets/Images/wallpaper1.gif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -35,7 +35,7 @@
 }
 
 #skills {
-  background-image: url(/Assets/Images/wallpaper2.gif);
+  background-image: url('/Assets/Images/wallpaper2.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
