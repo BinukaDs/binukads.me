@@ -1,13 +1,24 @@
 :root {
-    --main: #181610;
-    --s_text: #838372;
-    --text: #2A2B27;
-    --info : #329325;
+  --main: #181610;
+  --s_text: #838372;
+  --text: #2A2B27;
+  --info : #329325;
+  --pink : #e323be;
+  --purple : #6703a6;
+  --blue : #13cbeb;
+  --darkb : #1f5ad4;
 }
 
+
+
 .intro {
-    margin: 0;
-    padding: 0;
+  background-image: url('/Assets/Images/wallpaper\ 404.webp');
+  background-size: contain;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: transparent;
     height: 100vh;
 }
 
@@ -19,29 +30,17 @@
     transform: translate(-50%, -50%);
 }
 
-::-webkit-scrollbar {
-    width: 7px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background-color: var(--text); 
-    border-radius: 2px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: var(--info); 
-    border-radius: 2px;
-  }
 
 #typed {
-  font-size: 200px;
+  font-size: 100px;
+  color: var(--pink);
+  font-weight: lighter;
+  font-family: 'Press Start 2P', cursive;
 }
 
 
 .typed-cursor {
-    color: var(--info);
+    color: var(--pink);
     font-size: 200px;
 }
 

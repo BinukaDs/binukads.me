@@ -18,7 +18,7 @@
 
 .intro {
     background-image: url('/Assets/Images/wallpaper1.webp');
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     margin: 0;
@@ -37,7 +37,7 @@
 
 #skills {
   background-image: url('/Assets/Images/wallpaper2.webp');
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: center;
   margin: 0;
@@ -91,7 +91,7 @@
 
 #works {
   background-image: url('/Assets/Images/wallpaper3.webp');
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: center;
   margin: 0;

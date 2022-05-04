@@ -15,7 +15,7 @@
 
 body {
     background-image: url('/Assets/Images/projects/wallpaper.gif');
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
     margin: 0;
