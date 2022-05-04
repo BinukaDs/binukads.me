@@ -32,6 +32,7 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    
 }
 
 #skills {
@@ -41,19 +42,21 @@
   background-position: center;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  position: relative;
+  background-color: transparent;
 }
 
 
 #skill_set {
-  
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  
-  backdrop-filter: brightness(25%);
+  backdrop-filter: blur(2px);
+  backdrop-filter: brightness(50%);
+  background-color: transparent;
   border-radius: 15px;
+  border: 2px solid black;
 
 }
 #nav .nav-link{
@@ -160,7 +163,17 @@ footer a:hover {
   backdrop-filter: brightness(50%);
   background-color: transparent;
   
-} 
+}
+
+#card a {
+  position: fixed;
+  bottom: 5%;
+  width: 95%;
+  left: 3%;
+  
+}
+
+
   .card__image-container {
     margin: -2rem -2rem 1rem -2rem;
   }
@@ -209,11 +222,8 @@ footer a:hover {
 }
 
 
-
-
-
 #contact form {
-  width: 1000px;
+  
   padding: 20px;
   border-radius: 6px;
   
@@ -221,6 +231,7 @@ footer a:hover {
 }
 
 #contact form input {
+
   width: 950px;
   border: 2px solid var(--purple);
 }
@@ -229,6 +240,7 @@ footer a:hover {
 
 #contact form textarea {
   border: 2px solid var(--purple);
+  
 
 }
 
@@ -249,19 +261,18 @@ footer ul li a{
 
 
   ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     background-color: var(--text); 
-    border-radius: 2px;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--pink); 
-    border-radius: 2px;
+    background: var(--purple); 
+    
   }
   
   
@@ -315,13 +326,8 @@ footer ul li a{
 
     @media (max-width: 548px) {
 
-      #skill_set {
-  
-        height: 100%;
-      }
-
 
       .card {
-        height: 29rem;
+        height: max-content;
       }
     }
