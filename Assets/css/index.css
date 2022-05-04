@@ -318,6 +318,12 @@ footer ul li a{
 
     }
 
+    @media (max-width: 920px) {
+      .intro,#skills,#works {
+        background-attachment: scroll;
+      }
+    }
+
     @media (max-width: 650px) {
       #works {
         height: 100%;
