@@ -14,6 +14,11 @@
 }
 
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 .intro {
@@ -320,7 +325,7 @@ footer ul li a{
 
     @media (max-width: 920px) {
       .intro,#skills,#works {
-        background-attachment: scroll;
+        background-attachment:scroll;
       }
     }
 
