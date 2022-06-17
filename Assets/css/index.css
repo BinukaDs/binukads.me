@@ -324,7 +324,7 @@ footer ul li a{
 
     @media (max-width: 650px) {
      
-      #start, #skills, #works {
+      #start, #skills+, #works {
         background-attachment: scroll;
         background-size: cover;
       }
