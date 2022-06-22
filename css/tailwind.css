@@ -29,8 +29,7 @@ form input, textarea {
 }
 
 #socials svg:hover path{
-  fill: white;
-  @apply transition
+  fill: #C1C6BE;
 }
 
 ::-webkit-scrollbar {
