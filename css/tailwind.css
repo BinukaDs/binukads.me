@@ -1,0 +1,52 @@
+:root {
+    --highlight: #C1C6BE;
+}
+
+
+* {
+    font-family: 'Sen', sans-serif;
+    
+}
+
+
+
+
+
+.nav {
+    @apply block rounded-md  text-white text-center p-1 hover:bg-hover text-base transition  active:bg-gray-600
+}
+
+.topic {
+    @apply text-highlight font-bold text-4xl text-center mb-5 mt-16
+}
+
+.topic span {
+   @apply text-gray-400 text-lg font-normal
+}
+
+form input, textarea {
+  width: 95%
+}
+
+#socials svg:hover path{
+  fill: #C1C6BE;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: gray; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--highlight); 
+    
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
