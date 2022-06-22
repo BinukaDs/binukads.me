@@ -1,4 +1,8 @@
 # binukads.me
+![website Mockup png](https://user-images.githubusercontent.com/77571607/175101909-109b7a2a-c0d7-49c0-b285-fce8f45f4875.png)
+
+# Site performance
+![p](https://user-images.githubusercontent.com/77571607/175102207-d62884fb-8d0c-442c-aac9-1a20a736cd3c.jpg)
 
 ### #Namecheap #Netlify #GitHub #Icons8
 
@@ -8,6 +12,9 @@
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+
+
 
 
 ![Website](https://img.shields.io/website?down_color=red&down_message=Down%20%3A%28&up_color=dagreen&up_message=Up%20%3A%29&url=https%3A%2F%2Fwww.binukads.me)
