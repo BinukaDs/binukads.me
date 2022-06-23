@@ -21,5 +21,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/BinukaDs/binukads.me?color=gre&logo=github)
 ![GitHub](https://img.shields.io/github/license/BinukaDs/binukads.me?color=dgreen)
 ![GitHub last commit](https://img.shields.io/github/last-commit/BinukaDs/binukads.me?logo=Github)
+![repo size](https://img.shields.io/github/repo-size/BinukaDs/binukads.me?color=gren)
 
 
