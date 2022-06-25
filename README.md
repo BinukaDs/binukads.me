@@ -24,4 +24,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/BinukaDs/binukads.me?logo=Github)
 ![repo size](https://img.shields.io/github/repo-size/BinukaDs/binukads.me?color=gren)
 
+Give a star ⭐ to show your support ;)
+
 
