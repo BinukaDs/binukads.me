@@ -24,6 +24,10 @@
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/output.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     
 
@@ -35,7 +39,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-bg container items-center mx-auto">
+  <body class="bg-bg container items-center mx-auto ">
     <nav
       class="container flex self-center fixed top-0 px-2 sm:px-4 py-2.5 bg-transparent backdrop-blur-sm"
     >
@@ -131,9 +135,9 @@
 
     <section id="intro">
       <div
-        class="container md:flex mt-32 md:mt-0   mx-auto  md:h-screen mb-12 justify-center place-items-center md:grid-cols-2 gap-12"
+        class="container md:flex mt-32 md:mt-0    mx-auto  md:h-screen mb-12 justify-center place-items-center md:grid-cols-2 gap-12"
       >
-        <div class="self-center text-center md:text-left">
+        <div class="self-center text-center md:text-left as animate__animated s_animate__fadeIn">
           <h3 class="text-white text-4xl font-bold">
             <span class="text-highlight text-5xl">Hello!</span> I'm Binuka.
           </h3>
@@ -145,7 +149,7 @@
             creative.
           </h4>
           <a
-            class="inline-block rounded-xl justify-center bg-hover text-white text-center p-3 mt-3 hover:ring outline-none hover:ring-highlight  text-base transition active:bg-gray-600 cursor-pointer"
+            class="inline-block rounded-xl justify-center bg-hover text-white text-center p-3 mt-3 hover:ring outline-none hover:ring-highlight  text-base transition active:bg-gray-600 cursor-pointer as animate__animated s_animate__fadeInUp"
             data-scroll href="#about"
             >Read About me</a
           >
@@ -155,7 +159,7 @@
             src="Assets/img/avatar.webp"
             cls
             alt="Binuka's 3D Avatar"
-            class="rounded-full"
+            class="rounded-full as animate__animated s_animate__fadeInDown"
             width="300px"
           />
         </div>
@@ -163,7 +167,7 @@
     </section>
 
     <section id="about">
-      <h1 class="topic">About<br/><span>Simply Know About Me ;)</span></h1>
+      <h1 class="topic as animate__animated s_animate__fadeInDown">About<br/><span>Simply Know About Me ;)</span></h1>
       <div
         class="container block  mx-auto md:grid md:h-screen mb-12 justify-center place-items-center md:grid-cols-2"
       >
@@ -225,7 +229,7 @@
     </section>
 
     <section id="skills">
-      <h1 class="topic">Skills<br/><span>Things I know & can :)</span></h1>
+      <h1 class="topic as animate__animated s_animate__fadeInDown">Skills<br/><span>Things I know & can :)</span></h1>
 
       <div
         class="container block md:flex md:flex-row  md:h-screen mb-12 justify-center gap-12 "
@@ -297,9 +301,9 @@
     </section>
 
     <section id="projects">
-      <h1 class="topic">Projects<br/><span>Somethings I did :0</span></h1>
+      <h1 class="topic as animate__animated s_animate__fadeInDown">Projects<br/><span>Somethings I did :0</span></h1>
       <div
-        class="container block  mx-auto md:flex md:h-screen mb-12 justify-center place-items-center md:grid-cols-2"
+        class="container block  mx-auto md:flex md:h-screen mb-12 justify-center place-items-center md:grid-cols-2 "
       >
         <div class="md:flex block self-center mx-auto justify-center container">
 
@@ -451,10 +455,10 @@
    
 
     <section id="contact">
-      <h1 class="topic">Contact<br/><span>Tell me your query ;)</span></h1>
+      <h1 class="topic as animate__animated s_animate__fadeInDown">Contact<br/><span>Tell me your query ;)</span></h1>
      
       <div
-        class="container block  mx-auto md:grid md:h-screen mb-12 justify-center place-items-center md:grid-cols-2"
+        class="container block   mx-auto md:grid md:h-screen mb-12 justify-center place-items-center md:grid-cols-2"
       >
       <div class="md:block self-center justify-center container basis-1/3">
         <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" fill="#C1C6BE"><path d="M6.667 35V15L20.042 5L33.333 15V35H23.5V23.208H16.458V35ZM9.458 32.208H13.708V20.417H26.292V32.208H30.542V16.375L20.042 8.458L9.458 16.375ZM20 20.333Z"/></svg><br>
@@ -467,7 +471,7 @@
               <span class="text-highlight">Send a message anytime ;)</span></h4>
         </div>
 
-        <div id="socials" class="flex m-auto justify-start mt-5 container">
+        <div id="socials" class="flex m-auto justify-start mt-5 container as animate__animated s_animate__zoomIn">
 
           <a href="https://binukads.github.io/" target="_blank">
           <svg 
@@ -643,9 +647,13 @@
       const menu = document.querySelector(".mobile-menu");
 
        menu.classList.toggle("hidden");
+      }
+
+       
       
-    }
+    
     </script>
+    <script src="/src/js/index.js"></script>
 
     <!--smoothscroll.js-->
     <script src="src/js/smooth-scroll-master/dist/smooth-scroll.polyfills.min.js"></script>
