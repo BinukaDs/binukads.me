@@ -41,97 +41,97 @@
   </head>
   <body class="bg-bg container items-center mx-auto ">
     <nav
-      class="container flex self-center fixed top-0 px-2 sm:px-4 py-2.5 bg-transparent backdrop-blur-sm"
+    class="container flex self-center fixed top-0 px-2 sm:px-4 py-2.5 bg-transparent backdrop-blur-sm"
+  >
+    <div
+      class="container flex flex-wrap justify-between items-center mx-auto"
     >
-      <div
-        class="container flex flex-wrap justify-between items-center mx-auto"
+      <a href="#" class="flex items-center">
+        <h2
+          class="text-white text-lg font-bold transition hover:text-highlight"
+        >
+          BinukaDs
+        </h2>
+      </a>
+      <button
+      type="button"
+      onclick="toggle()"
+        class="inline-flex items-center p-2 ml-5 text-sm text-gray-500 transition rounded-lg md:hidden hover:bg-gray-100 focus:outline-none active:bg-bgColor focus:ring-2 focus:ring-highlight focus:bg-hover dark:text-gray-400 "
+        
       >
-        <a href="#" class="flex items-center">
-          <h2
-            class="text-white text-lg font-bold transition hover:text-highlight"
-          >
-            BinukaDs
-          </h2>
-        </a>
-        <button
-        type="button"
-        onclick="toggle()"
-          class="inline-flex items-center p-2 ml-5 text-sm text-gray-500 transition rounded-lg md:hidden hover:bg-gray-100 focus:outline-none active:bg-bgColor focus:ring-2 focus:ring-highlight focus:bg-hover dark:text-gray-400 "
-          
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-6 h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-          <svg
-            class="hidden w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+        <svg
+          class="hidden w-6 h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
 
-        <div
-          
-          class="hidden mobile-menu space-x-8 w-full justify-between md:w-auto"
-          
+      <div
+        
+        class="hidden mobile-menu space-x-8 w-full justify-between md:w-auto"
+        
+      >
+        <ul 
+          class="backdrop-blur-sm mt-4"
         >
-          <ul 
-            class="backdrop-blur-sm mt-4"
-          >
-            <li>
-              <a data-scroll href="#" class="nav" aria-current="page">Home</a>
-            </li>
-            <li>
-              <a data-scroll href="#about" class="nav" aria-current="page">About</a>
-            </li>
-            <li>
-              <a data-scroll href="#projects" class="nav" aria-current="page">Projects</a>
-            </li>
-            <li>
-              <a data-scroll href="#contact" class="nav" aria-current="page">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <div
-          class="hidden space-x-8 w-full justify-between md:flex md:w-auto"
-          id="nav"
-        >
-          <ul
-            class="flex flex-col mt-4 md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium"
-          >
-            <li>
-              <a data-scroll href="#" class="nav" aria-current="page">Home</a>
-            </li>
-            <li>
-              <a data-scroll href="#about" class="nav" aria-current="page">About</a>
-            </li>
-            <li>
-              <a data-scroll href="#projects" class="nav" aria-current="page">Projects</a>
-            </li>
-            <li>
-              <a data-scroll href="#contact" class="nav" aria-current="page">Contact</a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a data-scroll href="/index.html" class="nav" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a data-scroll href="/index.html#about" class="nav" aria-current="page">About</a>
+          </li>
+          <li>
+            <a data-scroll href="/index.html#projects" class="nav" aria-current="page">Projects</a>
+          </li>
+          <li>
+            <a data-scroll href="/index.html#contact" class="nav" aria-current="page">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+
+      <div
+        class="hidden space-x-8 w-full justify-between md:flex md:w-auto"
+        id="nav"
+      >
+        <ul
+          class="flex flex-col mt-4 md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium"
+        >
+          <li>
+            <a data-scroll href="#" class="nav" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a data-scroll href="#about" class="nav" aria-current="page">About</a>
+          </li>
+          <li>
+            <a data-scroll href="#projects" class="nav" aria-current="page">Projects</a>
+          </li>
+          <li>
+            <a data-scroll href="#contact" class="nav" aria-current="page">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     <section id="intro">
       <div
@@ -167,7 +167,7 @@
     </section>
 
     <section id="about">
-      <h1 class="topic as animate__animated s_animate__fadeInDown">About<br/><span>Simply Know About Me ;)</span></h1>
+      <h1 class="topic">About<br/><span>Simply Know About Me ;)</span></h1>
       <div
         class="container block  mx-auto md:grid md:h-screen mb-12 justify-center place-items-center md:grid-cols-2"
       >
@@ -229,7 +229,7 @@
     </section>
 
     <section id="skills">
-      <h1 class="topic as animate__animated s_animate__fadeInDown">Skills<br/><span>Things I know & can :)</span></h1>
+      <h1 class="topic">Skills<br/><span>Things I know & can :)</span></h1>
 
       <div
         class="container block md:flex md:flex-row  md:h-screen mb-12 justify-center gap-12 "
@@ -301,7 +301,7 @@
     </section>
 
     <section id="projects">
-      <h1 class="topic as animate__animated s_animate__fadeInDown">Projects<br/><span>Somethings I did :0</span></h1>
+      <h1 class="topic">Projects<br/><span>Somethings I did :0</span></h1>
       <div
         class="container block  mx-auto md:flex md:h-screen mb-12 justify-center place-items-center md:grid-cols-2 "
       >
@@ -455,7 +455,7 @@
    
 
     <section id="contact">
-      <h1 class="topic as animate__animated s_animate__fadeInDown">Contact<br/><span>Tell me your query ;)</span></h1>
+      <h1 class="topic">Contact<br/><span>Tell me your query ;)</span></h1>
      
       <div
         class="container block   mx-auto md:grid md:h-screen mb-12 justify-center place-items-center md:grid-cols-2"
