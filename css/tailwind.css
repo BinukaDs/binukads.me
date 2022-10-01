@@ -1,52 +1,58 @@
 :root {
-    --highlight: #C1C6BE;
+  --highlight: #C1C6BE;
 }
 
 
 * {
-    font-family: 'Sen', sans-serif;
-    
+  font-family: 'Sen', sans-serif;
+  
 }
 
 
+@media (max-width: 768px) {
 
+#intro img {
+width:200px;
+}
+
+}
 
 
 .nav {
-    @apply block rounded-md  text-white text-center p-1 hover:bg-hover text-base transition  active:bg-gray-600
+  @apply block rounded-md  text-white text-center p-1 hover:bg-hover text-base transition  active:bg-gray-600
 }
 
 .topic {
-    @apply text-highlight font-bold text-4xl text-center mb-5 mt-16
+  @apply text-highlight font-bold text-4xl text-center mb-5 mt-16
 }
 
 .topic span {
-   @apply text-gray-400 text-lg font-normal
+ @apply text-gray-400 text-lg font-normal
 }
 
 form input, textarea {
-  width: 95%
+width: 95%
 }
 
 #socials svg:hover path{
-  fill: white;
-  @apply transition
+fill: white;
+@apply transition
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-  }
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: gray; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--highlight); 
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background-color: gray; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: var(--highlight); 
-    
-  }
+}
 
 @tailwind base;
 @tailwind components;
