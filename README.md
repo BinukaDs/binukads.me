@@ -15,7 +15,7 @@
 
 
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0b86a427-09ff-47ec-afc2-6ca233f77d42/deploy-status)](https://app.netlify.com/sites/binukads/deploys)
 ![Website](https://img.shields.io/website?down_color=red&down_message=Down%20%3A%28&up_color=dagreen&up_message=Up%20%3A%29&url=https%3A%2F%2Fwww.binukads.me)
 ![total lines](https://img.shields.io/tokei/lines/github/BinukaDs/binukads.me?color=gree)
 ![GitHub language count](https://img.shields.io/github/languages/count/BinukaDs/binukads.me?color=gree&logo=github)
