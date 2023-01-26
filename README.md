@@ -1,5 +1,6 @@
 # binukads.me
-![website Mockup png](https://user-images.githubusercontent.com/77571607/175101909-109b7a2a-c0d7-49c0-b285-fce8f45f4875.png)
+![Desktop - Dark](https://user-images.githubusercontent.com/77571607/214887016-30d85562-fd29-49fa-85c1-b255298b4f7c.png)
+
 
 # Site performance
 ![p](https://user-images.githubusercontent.com/77571607/175102207-d62884fb-8d0c-442c-aac9-1a20a736cd3c.jpg)
